@@ -8,6 +8,9 @@ Think of your scenario - be as creative as you like - and then focus on communic
 
 👉 Write your kata's scenario in a comment in [main.js](main.js), and include the start of the function that CodeWarriors will use to solve it (like you've seen on the katas you've done before).
 
+- Finding multiples of a number? Adding them all together.
+- Pirate treasure theme!
+
 ### Step 2: Write your tests
 
 Have a look at some of the katas you've done previously. You'll notice that under where you write your code, there's another box with a series of tests. Now that we've covered testing with `jest`, those tests should start to look familiar.
