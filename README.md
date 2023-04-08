@@ -38,8 +38,8 @@ Share your kata in Slack in the following format:
 ```
 Room: {21}
 Members: {Mohammed Farah, Kane Hall}
-Link: {GitHub link to your public repo containing the kata}
-Overview: {brief description of what your kata is about}
+Link: {https://github.com/SchoolOfCode/bc14_w4d3_workshop_make-your-own-codewars-CGreen789.git}
+Overview: {The Pirate King has hidden the treasure. Use your supreme problem solving skills to find it!}
 ```
 
 👉 Once they finish, ask them for feedback, and you can use that user feedback to make any tweaks or improvements to your kata and/or tests.
