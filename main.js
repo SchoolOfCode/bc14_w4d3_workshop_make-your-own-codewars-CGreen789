@@ -19,12 +19,6 @@ Good luck.
 // remember to add export before testing
 
 export function treasureHunt(number) {
-  let sum = 0;
-  for(let i = 1; i <= number; i++){
-    if(i % 4 === 0 || i % 7 === 0){
-      sum += i;
-    }
-  }
-  return sum;
+  // 🏴‍☠️ code ahoy!
 };
 

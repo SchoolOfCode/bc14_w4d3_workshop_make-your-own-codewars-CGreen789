@@ -63,7 +63,7 @@ test('returns 0 when given 0', () => {
 
 
 // Checking if the function takes a number as an argument
-test('returns 0 when given a non-integer value', () => {
+test('returns undefined when given a non-integer value', () => {
     let actual = treasureHunt('abc');
     let expected = 0;
     expect(actual).toBe(expected);
@@ -72,14 +72,14 @@ test('returns 0 when given a non-integer value', () => {
   // Checking if the function returns a number
 
 
-test('checks that the function returns a number', () => {
-    let actual = "number";
-    let expected = typeof treasureHunt(5);
+  test('checks that the function returns a number', () => {
+    let actual = typeof treasureHunt(5);
+    let expected = "number";
     
     expect(actual).toBe(expected);
 });
 
-
+/*
 // Checks if the function returns 0 when given a negative number
 test('returns 0 when given a negative number', (number) => {
     let actual = treasureHunt(-number);
@@ -88,48 +88,50 @@ test('returns 0 when given a negative number', (number) => {
     expect(actual).toBe(expected);
   });
 
-/*
+*/
+
 // Checks if the function returns the correct answer for a given number
+
 test('returns 0 when given 0', () => {
-let actual = 0;
+let actual = treasureHunt(0);
 let expected = 0;
 
     expect(actual).toBe(expected);
 });
 
 test('returns 0 when given 1', () => {
-    let actual = 1;
+    let actual = treasureHunt(1);
     let expected = 0;
 
     expect(actual).toBe(expected);
 });
 
 test('returns 4 when given 4', () => {
-let actual = 4;
+let actual = treasureHunt(4);
 let expected = 4;
 
     expect(actual).toBe(expected);
 });
 
-test('returns 7 when given 7', (number) => {
-    let actual = 7;
-    let expected = 7;
-    
-    expect(actual).toBe(expected);
-});
-
-test('returns 11 when given 8', (number) => {
-    let actual = treasureHunt(8);
+test('returns 11 when given 7', () => {
+    let actual = treasureHunt(7);
     let expected = 11;
     
     expect(actual).toBe(expected);
 });
 
-test('returns 81 when given 20', (number) => {
+test('returns 19 when given 8', () => {
+    let actual = treasureHunt(8);
+    let expected = 19;
+    
+    expect(actual).toBe(expected);
+});
+
+test('returns 81 when given 20', () => {
     let actual = treasureHunt(20);
     let expected = 81;
     
     expect(actual).toBe(expected);
 });
 
-*/
+

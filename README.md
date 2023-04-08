@@ -36,8 +36,8 @@ You can write out the solution code and run your tests yourself to make sure you
 Share your kata in Slack in the following format:
 
 ```
-Room: {your room number}
-Members: {names of people in your pair}
+Room: {21}
+Members: {Mohammed Farah, Kane Hall}
 Link: {GitHub link to your public repo containing the kata}
 Overview: {brief description of what your kata is about}
 ```
