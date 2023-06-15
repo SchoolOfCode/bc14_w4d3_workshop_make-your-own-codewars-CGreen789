@@ -8,6 +8,9 @@ Think of your scenario - be as creative as you like - and then focus on communic
 
 👉 Write your kata's scenario in a comment in [main.js](main.js), and include the start of the function that CodeWarriors will use to solve it (like you've seen on the katas you've done before).
 
+- Finding multiples of a number? Adding them all together.
+- Pirate treasure theme!
+
 ### Step 2: Write your tests
 
 Have a look at some of the katas you've done previously. You'll notice that under where you write your code, there's another box with a series of tests. Now that we've covered testing with `jest`, those tests should start to look familiar.
@@ -33,10 +36,10 @@ You can write out the solution code and run your tests yourself to make sure you
 Share your kata in Slack in the following format:
 
 ```
-Room: {your room number}
-Members: {names of people in your pair}
-Link: {GitHub link to your public repo containing the kata}
-Overview: {brief description of what your kata is about}
+Room: {21}
+Members: {Mohammed Farah, Kane Hall}
+Link: {https://github.com/SchoolOfCode/bc14_w4d3_workshop_make-your-own-codewars-CGreen789.git}
+Overview: {The Pirate King has hidden the treasure. Use your supreme problem solving skills to find it!}
 ```
 
 👉 Once they finish, ask them for feedback, and you can use that user feedback to make any tweaks or improvements to your kata and/or tests.
